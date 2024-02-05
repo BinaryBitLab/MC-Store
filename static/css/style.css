@@ -1,7 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 body {
     padding: 0;
     margin: 0;
     overflow: hidden;
-    background: linear-gradient(to right, #3498db, #2980b9, #1f6690);
+    background: rgb(25, 30, 35);
+    color: #ffffff;
+    font-family: "Lato";
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2.5%;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.nav-links li {
+    font-size: 1.25rem;
+}
+
+.nav-links li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
